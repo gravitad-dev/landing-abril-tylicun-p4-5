@@ -1,0 +1,356 @@
+{
+  "section-header": {
+    "dropdow-icon": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715099070/supportApp/icons/dropdown.png",
+      "alt": "icon drop"
+    },
+    "links": [
+      {
+        "id": 1,
+        "title": "Home",
+        "href": "home",
+        "isDropdown": false,
+        "items": [],
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715107965/supportApp/icons-mobile/home.png",
+        "alt": "home icon"
+      },
+      {
+        "id": 2,
+        "title": "About",
+        "href": "about",
+        "isDropdown": false,
+        "external": false,
+        "items": ["", "", ""],
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715107965/supportApp/icons-mobile/about.png",
+        "alt": "about icon"
+      },
+      {
+        "id": 3,
+        "title": "Adversite",
+        "href": "adversite",
+        "isDropdown": true,
+        "items": [
+          {
+            "id": 1,
+            "text": "Features",
+            "link": "features",
+            "external": false
+          },
+          { "id": 2, "text": "Prices", "link": "price", "external": false },
+          {
+            "id": 3,
+            "text": "Testimonials",
+            "link": "testimonials",
+            "external": false
+          }
+        ],
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715107965/supportApp/icons-mobile/adversite.png",
+        "alt": "adversite icon"
+      },
+      {
+        "id": 4,
+        "title": "Project",
+        "href": "project",
+        "external": false,
+        "isDropdown": false,
+        "items": ["", "", ""],
+        "icon": "project.png",
+        "alt": "project icon"
+      }
+    ],
+    "search-bar": {
+      "icon": {
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715114328/supportApp/icons/search-icon.png",
+        "alt": "search icon",
+        "placeholder": ""
+      }
+    },
+    "contact": "Contact",
+    "contact-icon": "/contact.png",
+    "contact-icon-mobile": "/contactFilled.png",
+    "blog-button": "Blog",
+    "blog-ref": "https://www.blogger.com",
+    "blog-button-icon": "blog.png",
+    "blog-icon-mobile": "/blogFilled.png"
+  },
+  "section-hero": {
+    "image": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715106265/supportApp/hero/gtxptdjm5sd4prriyfvt.png",
+      "alt": "hero image"
+    },
+    "title": "Ultimate support system for leading agencies",
+    "subtitle": "Get your tests delivered at let home collect sample from the victory of the managments that supplies best design system guidelines ever.",
+    "button": "Get Started",
+    "input-placeholder": "Enter Email address",
+    "sponsors": {
+      "text": "Sponsored by:",
+      "sponsors-logos": [
+        {
+          "id": 1,
+          "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715134752/supportApp/hero/paypal.png",
+          "alt": "logo1 image"
+        },
+        {
+          "id": 2,
+          "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715134752/supportApp/hero/google.png",
+          "alt": "logo2 image"
+        },
+        {
+          "id": 3,
+          "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715134751/supportApp/hero/dropbox.png",
+          "alt": "logo3 image"
+        }
+      ]
+    }
+  },
+  "section-support": {
+    "arrow": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715136281/supportApp/support/arrow.png",
+      "alt": "arrow icon"
+    },
+    "cards": [
+      {
+        "id": 1,
+        "title": "Do you need help support",
+        "paragraph": "Get your website ads tests delivered at let collect sample from the victory of the update managments services.",
+        "action-link": "/support",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715136523/supportApp/support/woman.png",
+        "alt": "support operator icon"
+      },
+      {
+        "id": 2,
+        "title": "Do you need help support",
+        "paragraph": "Get your website ads tests delivered at let collect sample from the victory of the update managments services.",
+        "action-link": "/support",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715136523/supportApp/support/woman.png",
+        "alt": "support operator icon"
+      }
+    ]
+  },
+  "section-about": {
+    "image": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715153783/supportApp/about/image.png",
+      "alt": "image about"
+    },
+    "title": "Meet our premium features that will make you wow",
+    "emoji": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715153783/supportApp/about/emoji.png",
+      "alt": "emoji png"
+    },
+    "subtitle": "Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents.",
+    "title-paragraph": "Organize your project content",
+    "paragraph": "Get your website ads tests delivered at let collect sample from the victory of the managments that supplies best design system which guidelines ever with multiple features.",
+    "action1": "Collaborate your multiple team support easily",
+    "action2": "Build your team's knowledge base system",
+    "arrow": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715136281/supportApp/support/arrow.png",
+      "alt": "arrow icon"
+    }
+  },
+  "section-features": {
+    "image": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715157706/supportApp/features/image.png",
+      "alt": "image features"
+    },
+    "check-icon": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715157572/supportApp/features/check-icon.png",
+      "alt": "check icon"
+    },
+    "emoji": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715157572/supportApp/features/angel-emoji.png",
+      "alt": "emoji icon"
+    },
+    "title": "Built in one app to make instant reply with in lowest minutes",
+    "subtitle": "Get your tests delivered at let home collect sample from the victory of the managments that supplies best design system guidelines ever.",
+    "check1": "Medical and vision",
+    "check2": "Life insurance",
+    "check3": "400(k) savings",
+    "check4": "HSAs and FSAs",
+    "check5": "Commuter benefits",
+    "check6": "529 college savings",
+    "action": "Explore more >",
+    "action-link": "https://www.blogger.com/"
+  },
+  "section-explore": {
+    "image": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715172852/supportApp/explore/admjxzc3lbnpmjk0qjba.png",
+      "alt": "image explore"
+    },
+    "title": "Introduce quality feature that boost your website rank & performance",
+    "paragraph": "Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents. Get your tests delivered at let home collect sample from the victory of the supplies design system.",
+    "button": "More Details",
+    "action-link": "https://www.blogger.com/",
+    "stages": [
+      {
+        "id": 1,
+        "icon": {
+          "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715173775/supportApp/explore/s1.png",
+          "alt": "stage 1"
+        },
+        "text": "Budget Overview"
+      },
+      {
+        "id": 2,
+        "icon": {
+          "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715173775/supportApp/explore/s2.png",
+          "alt": "stage 2"
+        },
+        "text": "Create & adjust"
+      },
+      {
+        "id": 3,
+        "icon": {
+          "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715173775/supportApp/explore/s3.png",
+          "alt": "stage 3"
+        },
+        "text": "View Reports"
+      },
+      {
+        "id": 4,
+        "icon": {
+          "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715173775/supportApp/explore/s4.png",
+          "alt": "stage 4"
+        },
+        "text": "Optimize website"
+      },
+      {
+        "id": 5,
+        "icon": {
+          "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715173775/supportApp/explore/s5.png",
+          "alt": "stage 5"
+        },
+        "text": "Custom Dashboard"
+      }
+    ]
+  },
+  "section-price": {
+    "title": "What deal suit you perfect",
+    "subtitle": "Meet our pricing plan",
+    "option1": "Monthly Plan",
+    "option2": "Annual Plan",
+    "check-icon": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715183859/supportApp/prices/check-primary.png",
+      "alt": "icon check"
+    },
+    "none-icon": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715183859/supportApp/prices/none.png",
+      "alt": "none icon"
+    },
+    "card1": {
+      "title": "Startup Pack",
+      "price": "$25.99/mo",
+      "subtitle": "For the startup team who work with new come data stack",
+      "item1": "Ultimate access to all course, exercises and assessments",
+      "item2": "Free acess for all kind of exercise corrections with downloads.",
+      "item3": "Total assessment corrections with free download access system",
+      "item4": "Unlimited download of courses on the mobile app contents",
+      "button": "Start Free Trial"
+    },
+    "card2": {
+      "title": "Premium Pack",
+      "price": "$49.99/mo",
+      "subtitle": "For the Pro users who work with modern data stack",
+      "item1": "Ultimate access to all course, exercises and assessments",
+      "item2": "Free acess for all kind of exercise corrections with downloads.",
+      "item3": "Total assessment corrections with free download access system",
+      "item4": "Unlimited download of courses on the mobile app contents",
+      "button": "Start Free Trial"
+    }
+  },
+  "section-testimonials": {
+    "title": "Let’s See What Our Clients Says",
+    "clients": [
+      {
+        "id": 1,
+        "name": "Minnie Horn",
+        "role": "@hello.mimmie",
+        "paragraph": "I would like to take this oppertunity to thank SA Places for the great service rendered to us and in particular Estelle. You got me the best place ever in just a few moments after I spoke to you.",
+        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/1.png",
+        "alt": "image client"
+      },
+      {
+        "id": 2,
+        "name": "Paseka Nku",
+        "role": "@hey.nku",
+        "paragraph": "I have seldom experienced such an efficient help and support like from you! Thank you so much. We will do all the bookings during the next few days and I will revert to you with the end result",
+        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/3.png",
+        "alt": "image client"
+      },
+      {
+        "id": 3,
+        "name": "Merryn Manley",
+        "role": "@merryn.manley",
+        "paragraph": "Thank you very much for your friendly and efficient service. It was a pleasant experience. I have already recommended and will definitely continue to recommend your services to others in the future.",
+        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/f_webp,fl_awebp,q_auto/v1714210100/ia_landing/testimonials/2",
+        "alt": "image client"
+      },
+      {
+        "id": 4,
+        "name": "Paseka Nku",
+        "role": "@hey.nku",
+        "paragraph": "I have seldom experienced such an efficient help and support like from you! Thank you so much. We will do all the bookings during the next few days and I will revert to you with the end result",
+        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/3.png",
+        "alt": "image client"
+      },
+      {
+        "id": 5,
+        "name": "Merryn Manley",
+        "role": "@merryn.manley",
+        "paragraph": "Thank you very much for your friendly and efficient service. It was a pleasant experience. I have already recommended and will definitely continue to recommend your services to others in the future.",
+        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/f_webp,fl_awebp,q_auto/v1714210100/ia_landing/testimonials/2",
+        "alt": "image client"
+      },
+      {
+        "id": 6,
+        "name": "Thais Carballal",
+        "role": "@myself.thais",
+        "paragraph": "For our recent trip to S.A. Book multiple accommodations through SA Places. I just wanted to say that everything turned out perfect. Highly recommended, with fast and professional service.",
+        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/4.png",
+        "alt": "image client"
+      }
+    ]
+  },
+  "section-last": {
+    "title": "Contact us to get notified about update",
+    "subtitle": "By subscribing with your mail, you will accept our privacy policy",
+    "input_placeholder": "Enter your email",
+    "button": "Contact us",
+    "error": "Please enter a valid email address."
+  },
+  "section-footer": {
+    "links": [
+      {
+        "id": 1,
+        "text": "Home",
+        "href": "home"
+      },
+      {
+        "id": 2,
+        "text": "Adversite",
+        "href": "features"
+      },
+      {
+        "id": 3,
+        "text": "Supports",
+        "href": "support"
+      },
+      {
+        "id": 4,
+        "text": "Project",
+        "href": "project"
+      },
+      {
+        "id": 5,
+        "text": "FAQ",
+        "href": "testimonials"
+      }
+    ],
+    "logo": {
+      "url": "logo.png",
+      "text": "Support-App",
+      "alt": "logo image"
+    },
+    "copywrite": "Copyright by 2024 SupportApp, Inc"
+  },
+  "contact": "support-app@gmail.com"
+}
