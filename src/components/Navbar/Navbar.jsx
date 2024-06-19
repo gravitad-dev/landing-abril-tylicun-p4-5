@@ -59,12 +59,16 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed z-[98] top-0 left-0 w-full px-8 xl:px-16 py-2 flex justify-between items-center h-[78px] text-text-primary ${
+      className={`${
+        isScrolled
+          ? 'bg-fucsia_Custom-translucent backdrop-blur-lg'
+          : 'bg-fucsia_Custom backdrop-blur-none'
+      } fixed z-[98] top-0 left-0 w-full px-8 xl:px-16 py-2 flex justify-between items-center h-[78px] text-text-primary ${
         isScrolled ? 'border-b' : ''
       }`}
-      style={{
-        backgroundColor: '#FFFCF7',
-      }}
+      // style={{
+      //   backgroundColor: '#FFFCF7',
+      // }}
     >
       <div className="flex items-center justify-between w-full text-text-primary">
         <div className="hidden sm:flex items-center justify-between md:space-x-6 sm:space-x-2">
@@ -170,7 +174,9 @@ const Navbar = () => {
               type="text"
               value={searchInput}
               onChange={(e) => setSearchInput(e.target.value)}
-              className="p-1 border-none bg-bg-special w-[15vw]"
+              className={`p-1 bg-bg-special w-[15vw] rounded-sm ${
+                isScrolled ? 'border-2' : 'border-none'
+              }`}
             />
           </div>
         </div>
