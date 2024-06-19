@@ -61,11 +61,11 @@ function Explore() {
         </div>
 
         <div className="flex">
-          <div className="flex flex-col items-center justify-center px-8 text-white">
-            <p className="text-3xl font-bold leading-relaxed">
+          <div className="flex flex-col items-start justify-center px-8 text-white">
+            <p className="text-3xl font-bold leading-relaxed text-left">
               {data['section-explore'].title}
             </p>
-            <p className="mt-4 text-md pr-8 leading-8">
+            <p className="mt-4 text-md pr-8 leading-[3rem]">
               {data['section-explore'].paragraph}
             </p>
             <a
@@ -81,7 +81,7 @@ function Explore() {
           <img
             src={data['section-explore'].image.url}
             alt={data['section-explore'].image.alt}
-            className="hidden sm:block ml-auto mt-12 md:mt-30 w-1/2 rounded-tl-xl"
+            className="hidden sm:block ml-auto mt-12 md:mt-30 w-1/2 rounded-tl-xl object-cover"
           />
         </div>
       </div>

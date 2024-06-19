@@ -3,7 +3,7 @@ import data from '../../data.json';
 function Features() {
   return (
     <section id="features">
-      <div className="flex items-center justify-center w-full px-4 mt-20">
+      <div className="flex items-center justify-center w-full px-20 my-10">
         <div className="flex flex-col justify-center items-end text-text-primary space-y-2 px-2">
           <div className="flex items-end ml-auto w-full mx-auto">
             <p
@@ -98,7 +98,7 @@ function Features() {
         <img
           src={data['section-features'].image.url}
           alt={data['section-features'].image.alt}
-          className="w-[60%] hidden md:block"
+          className="w-[50%] hidden md:block rounded-md shadow-black shadow-md object-cover"
         />
       </div>
     </section>

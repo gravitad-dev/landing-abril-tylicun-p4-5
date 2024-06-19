@@ -69,7 +69,7 @@
     "contact-icon": "/contact.png",
     "contact-icon-mobile": "/contactFilled.png",
     "blog-button": "Blog",
-    "blog-ref": "https://www.blogger.com",
+    "blog-ref": "http://blog.tylicun.com/",
     "blog-button-icon": "blog.png",
     "blog-icon-mobile": "/blogFilled.png"
   },
@@ -78,8 +78,8 @@
       "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715106265/supportApp/hero/gtxptdjm5sd4prriyfvt.png",
       "alt": "hero image"
     },
-    "title": "Ultimate support system for leading agencies",
-    "subtitle": "Get your tests delivered at let home collect sample from the victory of the managments that supplies best design system guidelines ever.",
+    "title": "Empowering Intelligence, Driving Sales",
+    "subtitle": "At Tylicun.com, we are pioneers in Business Intelligence and Social Selling, dedicated to transforming data into actionable insights and sales strategies that propel businesses forward.",
     "button": "Get Started",
     "input-placeholder": "Enter Email address",
     "sponsors": {
@@ -111,17 +111,17 @@
     "cards": [
       {
         "id": 1,
-        "title": "Do you need help support",
-        "paragraph": "Get your website ads tests delivered at let collect sample from the victory of the update managments services.",
-        "action-link": "/support",
+        "title": "Empower Your Business with Cutting-Edge Solutions",
+        "paragraph": "Our mission is to empower businesses with cutting-edge Business Intelligence solutions and innovative Social Selling strategies that enhance decision-making and drive revenue growth.",
+        "action-link": "http://blog.tylicun.com/",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715136523/supportApp/support/woman.png",
         "alt": "support operator icon"
       },
       {
         "id": 2,
-        "title": "Do you need help support",
-        "paragraph": "Get your website ads tests delivered at let collect sample from the victory of the update managments services.",
-        "action-link": "/support",
+        "title": "Leading Provider of Business Intelligence & Social Selling",
+        "paragraph": "To be the leading global provider of Business Intelligence and Social Selling solutions, enabling businesses to achieve unparalleled success through data-driven insights and strategic social engagement.",
+        "action-link": "http://blog.tylicun.com/",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715136523/supportApp/support/woman.png",
         "alt": "support operator icon"
       }
@@ -129,7 +129,7 @@
   },
   "section-about": {
     "image": {
-      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715153783/supportApp/about/image.png",
+      "url": "1.png",
       "alt": "image about"
     },
     "title": "Meet our premium features that will make you wow",
@@ -149,7 +149,7 @@
   },
   "section-features": {
     "image": {
-      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715157706/supportApp/features/image.png",
+      "url": "2.png",
       "alt": "image features"
     },
     "check-icon": {
@@ -160,8 +160,8 @@
       "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715157572/supportApp/features/angel-emoji.png",
       "alt": "emoji icon"
     },
-    "title": "Built in one app to make instant reply with in lowest minutes",
-    "subtitle": "Get your tests delivered at let home collect sample from the victory of the managments that supplies best design system guidelines ever.",
+    "title": "What Makes Us Different",
+    "subtitle": "Tylicun.com stands out by combining cutting-edge technology with deep industry expertise. Our team of BI specialists and social selling experts work hand-in-hand to deliver solutions that are not only innovative but also tailored to meet the unique needs of each client.",
     "check1": "Medical and vision",
     "check2": "Life insurance",
     "check3": "400(k) savings",
@@ -169,17 +169,17 @@
     "check5": "Commuter benefits",
     "check6": "529 college savings",
     "action": "Explore more >",
-    "action-link": "https://www.blogger.com/"
+    "action-link": "http://blog.tylicun.com/"
   },
   "section-explore": {
     "image": {
-      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715172852/supportApp/explore/admjxzc3lbnpmjk0qjba.png",
+      "url": "3.png",
       "alt": "image explore"
     },
-    "title": "Introduce quality feature that boost your website rank & performance",
-    "paragraph": "Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents. Get your tests delivered at let home collect sample from the victory of the supplies design system.",
+    "title": "Why Trust Us",
+    "paragraph": "Trust Tylicun.com for our proven track record of delivering exceptional results. Our commitment to excellence, transparency, and client satisfaction ensures that we always go above and beyond to meet and exceed your expectations.",
     "button": "More Details",
-    "action-link": "https://www.blogger.com/",
+    "action-link": "http://blog.tylicun.com/",
     "stages": [
       {
         "id": 1,
@@ -224,8 +224,8 @@
     ]
   },
   "section-price": {
-    "title": "What deal suit you perfect",
-    "subtitle": "Meet our pricing plan",
+    "title": "Those Who Have Trusted Us",
+    "subtitle": "We are proud to have worked with a diverse range of clients across various industries, from startups to Fortune 500 companies. Our solutions have helped businesses of all sizes unlock their potential and achieve remarkable growth.",
     "option1": "Monthly Plan",
     "option2": "Annual Plan",
     "check-icon": {
@@ -347,10 +347,10 @@
     ],
     "logo": {
       "url": "logo.png",
-      "text": "Support-App",
+      "text": "Tylicun",
       "alt": "logo image"
     },
     "copywrite": "Copyright by 2024 SupportApp, Inc"
   },
-  "contact": "support-app@gmail.com"
+  "contact": "Tylicun@gmail.com"
 }

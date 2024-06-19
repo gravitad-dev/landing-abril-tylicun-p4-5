@@ -3,11 +3,11 @@ import data from '../../data.json';
 function About() {
   return (
     <section id="about">
-      <div className="flex items-start w-full px-4 my-20">
+      <div className="flex items-center w-full px-4 my-20 justify-center">
         <img
           src={data['section-about'].image.url}
           alt={data['section-about'].image.alt}
-          className="w-1/2 hidden lg:block"
+          className="w-1/3 hidden lg:block rounded-md shadow-black shadow-md"
         />
         <div className="flex flex-col justify-center items-start text-text-primary space-y-2 px-4">
           <div className="flex items-center">
@@ -19,7 +19,7 @@ function About() {
               <img
                 src={data['section-about'].emoji.url}
                 alt={data['section-about'].emoji.alt}
-                className="inline ml-2"
+                className="inline ml-2 "
               />
             </p>
           </div>

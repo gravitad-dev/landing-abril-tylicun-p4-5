@@ -15,10 +15,10 @@ function Supports() {
             </div>
             <div className="flex flex-col justify-center gap-4 px-4">
               <div className="flex justify-between items-center">
-                <h2 className="text-lg font-bold md:text-xl tracking-tight	">
+                <h2 className="text-lg font-bold md:text-xl tracking-tight w-4/5">
                   {card.title}
                 </h2>
-                <a href="/support" target="_blank">
+                <a href={card['action-link']} target="_blank">
                   <img
                     src={data['section-support'].arrow.url}
                     alt={data['section-support'].arrow.alt}

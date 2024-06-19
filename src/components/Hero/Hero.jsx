@@ -29,7 +29,7 @@ function Hero() {
             className="lg:w-[30vw] object-cover"
           />
           <div className="px-4">
-            <h1 className="text-4xl sm:text-5xl font-bold leading-tight">
+            <h1 className="text-4xl sm:text-5xl font-bold leading-tight w-4/5">
               {data['section-hero'].title}
             </h1>
             <p className="py-6 leading-9">{data['section-hero'].subtitle}</p>

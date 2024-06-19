@@ -69,11 +69,13 @@ const Navbar = () => {
       <div className="flex items-center justify-between w-full text-text-primary">
         <div className="hidden sm:flex items-center justify-between md:space-x-6 sm:space-x-2">
           <a href="/" className="flex items-center gap-2">
-            <img
-              src={data['section-footer'].logo.url}
-              alt={data['section-footer'].logo.alt}
-              className="h-10 hover:brightness-110 active:brightness-90"
-            />
+            <div className="rounded-full overflow-auto w-12">
+              <img
+                src={data['section-footer'].logo.url}
+                alt={data['section-footer'].logo.alt}
+                className="w-auto h-auto cursor-default"
+              />
+            </div>
             <p className="min-w-max text-text-primary font-semi-bold pr-8 hover:text-primary">
               {data['section-footer'].logo.text}
             </p>
