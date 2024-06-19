@@ -13,6 +13,7 @@ export default {
         'bg-special': '#FFFCF7',
         'bg-primary': '#2b293e',
         'bg-secondary': '#353448',
+        'bg-white-translucent': 'rgba(255,255,255,0.5)',
       },
       fontFamily: {
         'DM Sans': ['DM Sans', 'sans-serif'],
