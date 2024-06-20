@@ -3,8 +3,8 @@ import data from '../../data.json';
 function Explore() {
   return (
     <section id="project">
-      <div className="bg-bg-secondary h-auto pt-20">
-        <div className="hidden md:block">
+      <div className="bg-bg-secondary h-auto pt-5">
+        {/* <div className="hidden md:block">
           <div className="absolute left-1/2 transform -translate-x-1/2 border-[rgba(256,256,256,0.2)] mt-16 border-b-2 w-[82%] max-w-[1300px]"></div>
           <div className="flex items-center justify-around gap-8 py-7">
             <div className="flex flex-col items-center space-y-4">
@@ -58,7 +58,7 @@ function Explore() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="flex">
           <div className="flex flex-col items-start justify-center px-8 text-white">

@@ -21,7 +21,7 @@ function Features() {
           <p className="leading-10 self-start lg:w-[90%]">
             {data['section-features'].subtitle}
           </p>
-          <div className="flex items-center justify-start gap-8 lg:gap-12 pt-6 self-start w-full">
+          {/* <div className="flex items-center justify-start gap-8 lg:gap-12 pt-6 self-start w-full">
             <div className="flex flex-col justify-start items-start space-y-4">
               <div className="flex items-center gap-2">
                 <img
@@ -86,7 +86,7 @@ function Features() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="flex justify-start items-start py-8 w-full">
             <a href={data['section-features']['action-link']} target="_blank">
               <p className="cursor-pointer text-[#3183FF] hover:brightness-90 active:brightness-110">
@@ -98,7 +98,7 @@ function Features() {
         <img
           src={data['section-features'].image.url}
           alt={data['section-features'].image.alt}
-          className="w-[50%] hidden md:block rounded-md shadow-black shadow-md object-cover"
+          className="w-[40%] hidden md:block rounded-md shadow-black shadow-md object-cover"
         />
       </div>
     </section>

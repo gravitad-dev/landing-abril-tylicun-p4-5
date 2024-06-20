@@ -7,7 +7,7 @@ export default function Testimonials() {
 
   return (
     <section id="testimonials">
-      <div className="flex flex-col justify-center items-start py-12 px-4 w-full">
+      <div className="flex flex-col justify-center items-start pb-12 px-4 w-full">
         <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-2 xl:gap-4">
           {data['section-testimonials'].clients
             ?.slice(0, isMobile ? 2 : undefined)

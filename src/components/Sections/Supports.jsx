@@ -22,7 +22,7 @@ function Supports() {
                   <img
                     src={data['section-support'].arrow.url}
                     alt={data['section-support'].arrow.alt}
-                    className="h-4 cursor-pointer hover-effect"
+                    className="h-6 cursor-pointer hover-effect"
                   />
                 </a>
               </div>

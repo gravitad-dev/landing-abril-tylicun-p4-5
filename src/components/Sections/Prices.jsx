@@ -10,14 +10,14 @@ function Prices() {
 
   return (
     <section id="price">
-      <div className="flex flex-col items-center pt-20 pb-10 text-text-primary">
+      <div className="flex flex-col items-center pt-20 text-text-primary">
         <p className="font-bold text-3xl text-center">
           {data['section-price'].title}
         </p>
         <p className="text-md text-[#858B91] mt-4 w-2/3 text-center">
           {data['section-price'].subtitle}
         </p>
-        <div className="my-12 flex items-center justify-center gap-4">
+        {/* <div className="my-12 flex items-center justify-center gap-4">
           <p className="font-semibold">{data['section-price'].option1}</p>
           <input
             type="checkbox"
@@ -26,9 +26,9 @@ function Prices() {
             onChange={() => handleToggle(!check)}
           />
           <p className="font-semibold">{data['section-price'].option2}</p>
-        </div>
-        <div className="flex flex-col sm:flex-row items-start justify-center gap-4">
-          {/* CARD  1 */}
+        </div> */}
+        {/* <div className="flex flex-col sm:flex-row items-start justify-center gap-4">
+          CARD  1
           <div
             className="flex flex-col py-8 px-4 justify-center items-start rounded-lg sm:w-[42%] transition-all cursor-pointer"
             onClick={() => setCheck(false)}
@@ -94,7 +94,7 @@ function Prices() {
               {data['section-price'].card1.button}
             </button>
           </div>
-          {/* CARD  2 */}
+          CARD  2
           <div
             className="flex flex-col py-8 px-4 shadow-md justify-center items-start rounded-lg sm:w-[42%] transition-all cursor-pointer"
             onClick={() => setCheck(true)}
@@ -157,7 +157,7 @@ function Prices() {
               {data['section-price'].card2.button}
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

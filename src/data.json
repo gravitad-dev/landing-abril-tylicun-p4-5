@@ -36,11 +36,16 @@
             "link": "features",
             "external": false
           },
-          { "id": 2, "text": "Prices", "link": "price", "external": false },
+          {
+            "id": 2,
+            "text": "Testimonials",
+            "link": "price",
+            "external": false
+          },
           {
             "id": 3,
-            "text": "Testimonials",
-            "link": "testimonials",
+            "text": "Contact Us",
+            "link": "suscribe",
             "external": false
           }
         ],
@@ -105,7 +110,7 @@
   },
   "section-support": {
     "arrow": {
-      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715136281/supportApp/support/arrow.png",
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1718899218/copys/arrow.png",
       "alt": "arrow icon"
     },
     "cards": [
@@ -114,7 +119,7 @@
         "title": "Empower Your Business with Cutting-Edge Solutions",
         "paragraph": "Our mission is to empower businesses with cutting-edge Business Intelligence solutions and innovative Social Selling strategies that enhance decision-making and drive revenue growth.",
         "action-link": "http://blog.tylicun.com/",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715136523/supportApp/support/woman.png",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1718897355/copys/star.png",
         "alt": "support operator icon"
       },
       {
@@ -122,7 +127,7 @@
         "title": "Leading Provider of Business Intelligence & Social Selling",
         "paragraph": "To be the leading global provider of Business Intelligence and Social Selling solutions, enabling businesses to achieve unparalleled success through data-driven insights and strategic social engagement.",
         "action-link": "http://blog.tylicun.com/",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715136523/supportApp/support/woman.png",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1718897354/copys/lightning.png",
         "alt": "support operator icon"
       }
     ]
@@ -258,53 +263,53 @@
     }
   },
   "section-testimonials": {
-    "title": "Let’s See What Our Clients Says",
+    "title": "Let’s See What Our Clients Say",
     "clients": [
       {
         "id": 1,
-        "name": "Minnie Horn",
-        "role": "@hello.mimmie",
-        "paragraph": "I would like to take this oppertunity to thank SA Places for the great service rendered to us and in particular Estelle. You got me the best place ever in just a few moments after I spoke to you.",
+        "name": "Jessica Williams",
+        "role": "@jessica.salesguru",
+        "paragraph": "Tylicun has revolutionized our sales strategy. The business intelligence tools have allowed us to identify key opportunities and increase our sales by 30%.",
         "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/1.png",
         "alt": "image client"
       },
       {
         "id": 2,
-        "name": "Paseka Nku",
-        "role": "@hey.nku",
-        "paragraph": "I have seldom experienced such an efficient help and support like from you! Thank you so much. We will do all the bookings during the next few days and I will revert to you with the end result",
+        "name": "Michael Brown",
+        "role": "@michael.bi.expert",
+        "paragraph": "Implementing Tylicun's Social Selling strategies has been a game changer for our marketing team. We've seen a significant increase in the generation of qualified leads.",
         "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/3.png",
         "alt": "image client"
       },
       {
         "id": 3,
-        "name": "Merryn Manley",
-        "role": "@merryn.manley",
-        "paragraph": "Thank you very much for your friendly and efficient service. It was a pleasant experience. I have already recommended and will definitely continue to recommend your services to others in the future.",
-        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/f_webp,fl_awebp,q_auto/v1714210100/ia_landing/testimonials/2",
+        "name": "Sophia Miller",
+        "role": "@sophia.ceo",
+        "paragraph": "Tylicun's Business Intelligence solutions have enabled us to make confident, data-driven decisions. Our performance has significantly improved since using their services.",
+        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713720395/testimonials/muqfcnxioqhfx6tvsp27.png",
         "alt": "image client"
       },
       {
         "id": 4,
-        "name": "Paseka Nku",
-        "role": "@hey.nku",
-        "paragraph": "I have seldom experienced such an efficient help and support like from you! Thank you so much. We will do all the bookings during the next few days and I will revert to you with the end result",
-        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/3.png",
+        "name": "Javier López",
+        "role": "@javier.techlead",
+        "paragraph": "Tylicun's platform is incredibly intuitive and effective. We have optimized our sales processes and achieved outstanding results in a short time.",
+        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713720395/testimonials/sm3vhi9ndhn5id0wz3am.png",
         "alt": "image client"
       },
       {
         "id": 5,
-        "name": "Merryn Manley",
-        "role": "@merryn.manley",
-        "paragraph": "Thank you very much for your friendly and efficient service. It was a pleasant experience. I have already recommended and will definitely continue to recommend your services to others in the future.",
+        "name": "Ana Torres",
+        "role": "@ana.salesguru",
+        "paragraph": "Integrating Tylicun's business intelligence with our existing systems has been seamless. The quality and accuracy of the data we obtain is exceptional.",
         "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/f_webp,fl_awebp,q_auto/v1714210100/ia_landing/testimonials/2",
         "alt": "image client"
       },
       {
         "id": 6,
-        "name": "Thais Carballal",
-        "role": "@myself.thais",
-        "paragraph": "For our recent trip to S.A. Book multiple accommodations through SA Places. I just wanted to say that everything turned out perfect. Highly recommended, with fast and professional service.",
+        "name": "David Jones",
+        "role": "@david.techlead",
+        "paragraph": "I highly recommend Tylicun's services. Their innovative and personalized approach has been crucial for the growth of our company in today's competitive market.",
         "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/4.png",
         "alt": "image client"
       }
@@ -350,7 +355,7 @@
       "text": "Tylicun",
       "alt": "logo image"
     },
-    "copywrite": "Copyright by 2024 SupportApp, Inc"
+    "copywrite": "Copyright by 2024 - Tylicun, Inc"
   },
-  "contact": "Tylicun@gmail.com"
+  "contact": "tylicun@gmail.com"
 }

@@ -7,7 +7,7 @@ function About() {
         <img
           src={data['section-about'].image.url}
           alt={data['section-about'].image.alt}
-          className="w-1/3 hidden lg:block rounded-md shadow-black shadow-md"
+          className="w-[40%] hidden lg:block rounded-md shadow-black shadow-md"
         />
         <div className="flex flex-col justify-center items-start text-text-primary space-y-2 px-4">
           <div className="flex items-center">
@@ -39,22 +39,22 @@ function About() {
               {' '}
               {data['section-about'].action1}
             </p>
-            <img
+            {/* <img
               src={data['section-about'].arrow.url}
               alt={data['section-about'].arrow.url}
               className="h-4 cursor-pointer hover-effect active:invert-[80] transition-all"
-            />
+            /> */}
           </div>
           <div className="p-6 py-4 shadow-xl w-full lg:w-5/6 flex items-center justify-between bg-[#F6F8FB] rounded-xl">
             <p className="font-semibold text-[14px]">
               {' '}
               {data['section-about'].action2}
             </p>
-            <img
+            {/* <img
               src={data['section-about'].arrow.url}
               alt={data['section-about'].arrow.url}
               className="h-4 cursor-pointer hover-effect active:invert-[80] transition-all"
-            />
+            /> */}
           </div>
         </div>
       </div>
