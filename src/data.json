@@ -7,7 +7,7 @@
     "links": [
       {
         "id": 1,
-        "title": "Home",
+        "title": "Principal",
         "href": "home",
         "isDropdown": false,
         "items": [],
@@ -16,7 +16,7 @@
       },
       {
         "id": 2,
-        "title": "About",
+        "title": "Sobre Nosotros",
         "href": "about",
         "isDropdown": false,
         "external": false,
@@ -26,25 +26,25 @@
       },
       {
         "id": 3,
-        "title": "Adversite",
+        "title": "Anuncio",
         "href": "adversite",
         "isDropdown": true,
         "items": [
           {
             "id": 1,
-            "text": "Features",
+            "text": "Características",
             "link": "features",
             "external": false
           },
           {
             "id": 2,
-            "text": "Testimonials",
+            "text": "Testimonios",
             "link": "price",
             "external": false
           },
           {
             "id": 3,
-            "text": "Contact Us",
+            "text": "Contáctenos",
             "link": "suscribe",
             "external": false
           }
@@ -54,7 +54,7 @@
       },
       {
         "id": 4,
-        "title": "Project",
+        "title": "Proyecto",
         "href": "project",
         "external": false,
         "isDropdown": false,
@@ -70,7 +70,7 @@
         "placeholder": ""
       }
     },
-    "contact": "Contact",
+    "contact": "Contacto",
     "contact-icon": "/contact.png",
     "contact-icon-mobile": "/contactFilled.png",
     "blog-button": "Blog",
@@ -83,12 +83,12 @@
       "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715106265/supportApp/hero/gtxptdjm5sd4prriyfvt.png",
       "alt": "hero image"
     },
-    "title": "Empowering Intelligence, Driving Sales",
-    "subtitle": "At Tylicun.com, we are pioneers in Business Intelligence and Social Selling, dedicated to transforming data into actionable insights and sales strategies that propel businesses forward.",
-    "button": "Get Started",
-    "input-placeholder": "Enter Email address",
+    "title": "Potenciando la inteligencia, impulsando las ventas.",
+    "subtitle": "En Tylicun.com, somos pioneros en Business Intelligence y Social Selling, dedicados a transformar datos en conocimientos prácticos y estrategias de ventas que impulsan a las empresas hacia adelante.",
+    "button": "Empezar",
+    "input-placeholder": "Ingresa tu email ",
     "sponsors": {
-      "text": "Sponsored by:",
+      "text": "Patrocinado por",
       "sponsors-logos": [
         {
           "id": 1,
@@ -116,16 +116,16 @@
     "cards": [
       {
         "id": 1,
-        "title": "Empower Your Business with Cutting-Edge Solutions",
-        "paragraph": "Our mission is to empower businesses with cutting-edge Business Intelligence solutions and innovative Social Selling strategies that enhance decision-making and drive revenue growth.",
+        "title": "Potencie su empresa con soluciones de vanguardia",
+        "paragraph": "Nuestra misión es capacitar a las empresas con soluciones de inteligencia empresarial de vanguardia y estrategias innovadoras de venta social que mejoren la toma de decisiones e impulsen el crecimiento de los ingresos.",
         "action-link": "http://blog.tylicun.com/",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1718897355/copys/star.png",
         "alt": "support operator icon"
       },
       {
         "id": 2,
-        "title": "Leading Provider of Business Intelligence & Social Selling",
-        "paragraph": "To be the leading global provider of Business Intelligence and Social Selling solutions, enabling businesses to achieve unparalleled success through data-driven insights and strategic social engagement.",
+        "title": "Proveedor líder de Business Intelligence y Social Selling",
+        "paragraph": "Ser el proveedor líder mundial de soluciones de Business Intelligence y Social Selling, que permita a las empresas lograr un éxito incomparable a través de conocimientos basados ​​en datos y un compromiso social estratégico.",
         "action-link": "http://blog.tylicun.com/",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1718897354/copys/lightning.png",
         "alt": "support operator icon"
@@ -137,14 +137,14 @@
       "url": "1.png",
       "alt": "image about"
     },
-    "title": "Meet our premium features that will make you wow",
+    "title": "Nuestros Servicios",
     "emoji": {
       "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715153783/supportApp/about/emoji.png",
       "alt": "emoji png"
     },
-    "subtitle": "Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents.",
-    "title-paragraph": "Organize your project content",
-    "paragraph": "Get your website ads tests delivered at let collect sample from the victory of the managments that supplies best design system which guidelines ever with multiple features.",
+    "subtitle": "Nuestros Servicios",
+    "title-paragraph": "Soluciones de inteligencia empresarial:",
+    "paragraph": " transforme sus datos en conocimientos prácticos con nuestras herramientas y análisis de BI avanzados.",
     "action1": "Collaborate your multiple team support easily",
     "action2": "Build your team's knowledge base system",
     "arrow": {
@@ -165,15 +165,15 @@
       "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1715157572/supportApp/features/angel-emoji.png",
       "alt": "emoji icon"
     },
-    "title": "What Makes Us Different",
-    "subtitle": "Tylicun.com stands out by combining cutting-edge technology with deep industry expertise. Our team of BI specialists and social selling experts work hand-in-hand to deliver solutions that are not only innovative but also tailored to meet the unique needs of each client.",
+    "title": "¿Qué nos diferencia?",
+    "subtitle": "Tylicun.com se destaca por combinar tecnología de vanguardia con una profunda experiencia en la industria. Nuestro equipo de especialistas en BI y expertos en ventas sociales trabajan mano a mano para ofrecer soluciones que no solo son innovadoras sino también diseñadas para satisfacer las necesidades únicas de cada cliente.",
     "check1": "Medical and vision",
     "check2": "Life insurance",
     "check3": "400(k) savings",
     "check4": "HSAs and FSAs",
     "check5": "Commuter benefits",
     "check6": "529 college savings",
-    "action": "Explore more >",
+    "action": "Explora más >",
     "action-link": "http://blog.tylicun.com/"
   },
   "section-explore": {
@@ -181,9 +181,9 @@
       "url": "3.png",
       "alt": "image explore"
     },
-    "title": "Why Trust Us",
-    "paragraph": "Trust Tylicun.com for our proven track record of delivering exceptional results. Our commitment to excellence, transparency, and client satisfaction ensures that we always go above and beyond to meet and exceed your expectations.",
-    "button": "More Details",
+    "title": "¿Por qué confiar en nosotros?",
+    "paragraph": "Confía en Tylicun.com por nuestro historial comprobado de brindar resultados excepcionales. Nuestro compromiso con la excelencia, la transparencia y la satisfacción del cliente garantiza que siempre vayamos más allá para cumplir y superar sus expectativas.",
+    "button": "Más Detalles",
     "action-link": "http://blog.tylicun.com/",
     "stages": [
       {
@@ -229,8 +229,8 @@
     ]
   },
   "section-price": {
-    "title": "Those Who Have Trusted Us",
-    "subtitle": "We are proud to have worked with a diverse range of clients across various industries, from startups to Fortune 500 companies. Our solutions have helped businesses of all sizes unlock their potential and achieve remarkable growth.",
+    "title": "Quienes han confiado en nosotros",
+    "subtitle": "Estamos orgullosos de haber trabajado con una amplia gama de clientes en diversas industrias, desde nuevas empresas hasta empresas Fortune 500. Nuestras soluciones han ayudado a empresas de todos los tamaños a desbloquear su potencial y lograr un crecimiento notable.",
     "option1": "Monthly Plan",
     "option2": "Annual Plan",
     "check-icon": {
@@ -269,7 +269,7 @@
         "id": 1,
         "name": "Jessica Williams",
         "role": "@jessica.salesguru",
-        "paragraph": "Tylicun has revolutionized our sales strategy. The business intelligence tools have allowed us to identify key opportunities and increase our sales by 30%.",
+        "paragraph": "Tylicun ha revolucionado nuestra estrategia de ventas. Las herramientas de inteligencia empresarial nos han permitido identificar oportunidades clave y aumentar nuestras ventas un 30%.",
         "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/1.png",
         "alt": "image client"
       },
@@ -277,7 +277,7 @@
         "id": 2,
         "name": "Michael Brown",
         "role": "@michael.bi.expert",
-        "paragraph": "Implementing Tylicun's Social Selling strategies has been a game changer for our marketing team. We've seen a significant increase in the generation of qualified leads.",
+        "paragraph": "La aplicación de las estrategias de Social Selling de Tylicun ha supuesto un cambio radical para nuestro equipo de marketing. Hemos visto un aumento significativo en la generación de clientes potenciales cualificados.",
         "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/3.png",
         "alt": "image client"
       },
@@ -285,63 +285,40 @@
         "id": 3,
         "name": "Sophia Miller",
         "role": "@sophia.ceo",
-        "paragraph": "Tylicun's Business Intelligence solutions have enabled us to make confident, data-driven decisions. Our performance has significantly improved since using their services.",
+        "paragraph": "Las soluciones de Business Intelligence de Tylicun nos han permitido tomar decisiones seguras y basadas en datos. Nuestro rendimiento ha mejorado considerablemente desde que utilizamos sus servicios.",
         "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713720395/testimonials/muqfcnxioqhfx6tvsp27.png",
         "alt": "image client"
-      },
-      {
-        "id": 4,
-        "name": "Javier López",
-        "role": "@javier.techlead",
-        "paragraph": "Tylicun's platform is incredibly intuitive and effective. We have optimized our sales processes and achieved outstanding results in a short time.",
-        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713720395/testimonials/sm3vhi9ndhn5id0wz3am.png",
-        "alt": "image client"
-      },
-      {
-        "id": 5,
-        "name": "Ana Torres",
-        "role": "@ana.salesguru",
-        "paragraph": "Integrating Tylicun's business intelligence with our existing systems has been seamless. The quality and accuracy of the data we obtain is exceptional.",
-        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/f_webp,fl_awebp,q_auto/v1714210100/ia_landing/testimonials/2",
-        "alt": "image client"
-      },
-      {
-        "id": 6,
-        "name": "David Jones",
-        "role": "@david.techlead",
-        "paragraph": "I highly recommend Tylicun's services. Their innovative and personalized approach has been crucial for the growth of our company in today's competitive market.",
-        "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714210100/ia_landing/testimonials/4.png",
-        "alt": "image client"
       }
+      
     ]
   },
   "section-last": {
-    "title": "Contact us to get notified about update",
-    "subtitle": "By subscribing with your mail, you will accept our privacy policy",
-    "input_placeholder": "Enter your email",
-    "button": "Contact us",
-    "error": "Please enter a valid email address."
+    "title": "Póngase en contacto con nosotros para recibir notificaciones sobre actualizaciones",
+    "subtitle": "Al suscribirte con tu correo, aceptas nuestra política de privacidad",
+    "input_placeholder": "Ingrese su dirección de correo electrónico",
+    "button": "Contáctanos",
+    "error": "Introduzca una dirección de correo electrónico válida."
   },
   "section-footer": {
     "links": [
       {
         "id": 1,
-        "text": "Home",
+        "text": "Principal",
         "href": "home"
       },
       {
         "id": 2,
-        "text": "Adversite",
+        "text": "Publicidad",
         "href": "features"
       },
       {
         "id": 3,
-        "text": "Supports",
+        "text": "Soporte",
         "href": "support"
       },
       {
         "id": 4,
-        "text": "Project",
+        "text": "Proyecto",
         "href": "project"
       },
       {

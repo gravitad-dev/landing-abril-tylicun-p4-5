@@ -1,15 +1,15 @@
-import data from '../../data.json';
-import Card from '../utils/Card';
-import { useMediaQuery } from 'react-responsive';
+import data from "../../data.json";
+import Card from "../utils/Card";
+import { useMediaQuery } from "react-responsive";
 
 export default function Testimonials() {
-  const isMobile = useMediaQuery({ query: '(max-width: 700px)' });
+  const isMobile = useMediaQuery({ query: "(max-width: 700px)" });
 
   return (
     <section id="testimonials">
-      <div className="flex flex-col justify-center items-start pb-12 px-4 w-full">
-        <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-2 xl:gap-4">
-          {data['section-testimonials'].clients
+      <div className=" py-12 px-4 w-full">
+        <div className="flex justify-evenly items-center ">
+          {data["section-testimonials"].clients
             ?.slice(0, isMobile ? 2 : undefined)
             .map((client, index) => (
               <Card
