@@ -1,9 +1,10 @@
 import data from '../../data.json';
 import { Link } from 'react-scroll';
+import SocialButtons from '../Socials';
 
 function Footer() {
   const handleButtonClick = () => {
-    window.location.href = `mailto:${data.contact}?subject=Contact`;
+    window.location.href = `https://blog.tylicun.com/contacto/`;
   };
 
   return (
@@ -53,7 +54,7 @@ function Footer() {
               {data['section-header']['blog-button']}
             </p>
           </a>
-          <a onClick={handleButtonClick}>
+          <a href="https://blog.tylicun.com/contacto/" target="_blank">
             <p className="flex items-center gap-2 cursor-pointer sm:text-[12px] lg:text-[14px] w-max border-b-2 border-transparent hover:border-b-2 text-white hover:border-primary menu-item">
               <img
                 src={data['section-header']['contact-icon']}
@@ -66,6 +67,7 @@ function Footer() {
           </a>
         </div>
       </div>
+      <SocialButtons />;
     </footer>
   );
 }

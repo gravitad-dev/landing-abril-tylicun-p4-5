@@ -289,14 +289,16 @@
         "image": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713720395/testimonials/muqfcnxioqhfx6tvsp27.png",
         "alt": "image client"
       }
-      
     ]
   },
   "section-last": {
     "title": "Póngase en contacto con nosotros para recibir notificaciones sobre actualizaciones",
     "subtitle": "Al suscribirte con tu correo, aceptas nuestra política de privacidad",
     "input_placeholder": "Ingrese su dirección de correo electrónico",
-    "button": "Contáctanos",
+    "button": {
+      "text": "Contáctanos",
+      "href": "https://blog.tylicun.com/contacto/"
+    },
     "error": "Introduzca una dirección de correo electrónico válida."
   },
   "section-footer": {

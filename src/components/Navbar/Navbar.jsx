@@ -54,7 +54,7 @@ const Navbar = () => {
   };
 
   const handleButtonClick = () => {
-    window.location.href = `mailto:${data.contact}?subject=Contact`;
+    window.location.href = `https://blog.tylicun.com/contacto/`;
   };
 
   return (
@@ -62,7 +62,7 @@ const Navbar = () => {
       className={`${
         isScrolled
           ? 'bg-bg-white-translucent backdrop-blur-md'
-          : 'bg-white backdrop-blur-none'
+          : 'bg-transparent backdrop-blur-none'
       } fixed z-[98] top-0 left-0 w-full px-8 xl:px-16 py-2 flex justify-between items-center h-[78px] text-text-primary`}
     >
       <div className="flex items-center justify-between w-full text-text-primary">
@@ -186,7 +186,7 @@ const Navbar = () => {
               {data['section-header']['blog-button']}
             </p>
           </a>
-          <a onClick={handleButtonClick}>
+          <a href="https://blog.tylicun.com/contacto/" target="_blank">
             <p className="flex items-center gap-2 text-md cursor-pointer hover:text-red-custom sm:text-[12px] lg:text-[16px] 2xl:text-[18px] w-max border-b-2 border-transparent hover:border-b-2 text-text-primary hover:border-primary menu-item">
               <img
                 src={data['section-header']['contact-icon']}
