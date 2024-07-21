@@ -14,7 +14,7 @@ const MenuMobile = ({ isOpen, onClick }) => {
   };
 
   const handleButtonClick = () => {
-    window.location.href = `mailto:${data.contact}?subject=Contact`;
+    window.location.href = `https://blog.tylicun.com/contacto/`;
   };
 
   return (
