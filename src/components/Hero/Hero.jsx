@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import data from '../../data.json';
+import { useState } from "react";
+import data from "../../data.json";
 
 function Hero() {
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState("");
   const [isValidEmail, setIsValidEmail] = useState(false);
 
   const handleInputChange = (e) => {
@@ -22,15 +22,15 @@ function Hero() {
       <div className="text-text-primary bg-[#FFFCF7] pt-24 sm:pt-32 pb-12 w-full">
         <div className="flex flex-col lg:flex-row-reverse lg:gap-8 justify-center px-8 overflow-hidden">
           <img
-            src={data['section-hero'].image.url}
-            alt={data['section-hero'].image.alt}
+            src={data["section-hero"].image.url}
+            alt={data["section-hero"].image.alt}
             className="lg:w-[30vw] object-cover"
           />
           <div className="px-4">
             <h1 className="text-4xl sm:text-5xl font-bold leading-tight w-4/5">
-              {data['section-hero'].title}
+              {data["section-hero"].title}
             </h1>
-            <p className="py-6 leading-9">{data['section-hero'].subtitle}</p>
+            <p className="py-6 leading-9">{data["section-hero"].subtitle}</p>
             <div className="flex items-center gap-2">
               {/* <input
                 type="email"
@@ -49,6 +49,7 @@ function Hero() {
                 Empezar
               </a> */}
             </div>
+            {/*
             <div className="flex flex-wrap items-center mt-8 gap-4">
               <p className="text-[#56627260] text-xs font-bold">
                 {data['section-hero'].sponsors.text}
@@ -62,6 +63,7 @@ function Hero() {
                 />
               ))}
             </div>
+            */}
           </div>
         </div>
       </div>
